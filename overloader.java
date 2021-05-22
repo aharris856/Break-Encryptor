@@ -23,6 +23,7 @@ public class overloader{
 			maxValueStr = kb.nextLine();
 			System.out.println("Enter a value for the number of lines for the 'overload.txt' file:");
 			numLinesStr = kb.nextLine();
+			kb.close();
 		}else{
 			maxValueStr = args[0];
 			numLinesStr = args[1];
