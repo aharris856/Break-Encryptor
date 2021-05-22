@@ -9,7 +9,7 @@ by exploiting the new size of encrypted text.
 
 The Math/Explanation (for more details about the encryptor go to the read-me file in BETTER-Encryptor):
 
-    The way the new size of the encrypted text is calculated first by taking
+    The way the new size of the encrypted text is calculated, is first by taking
     say we call the 'text to be encrypted length' = L, it finds the greatest prime factor
     of L, say we call this greatest factor G. The new size of what the encrypted text will be
     is then L x G.
