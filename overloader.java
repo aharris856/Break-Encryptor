@@ -48,6 +48,7 @@ public class overloader{
 			System.out.println("Unknown Error in: largestPrime(int max) Method... Exitting.");
 			System.exit(0);
 		}
+		System.out.println("Largest Prime Below "+maxValue+" is = "+prime+"...\nAdding "+numLines+" lines of "+prime+" 0's to overload.txt");
 		//FILE INPUT SECTION ---------------------------------------------------------------------
 		//generate str to print into file
 		String content = "";
@@ -66,6 +67,7 @@ public class overloader{
 		pw.close();
 		bw.close();
 		fw.close();
+		System.out.println("overload.txt successfully updated!");
 	}
 
 	//returns largest prime below 'int max'
